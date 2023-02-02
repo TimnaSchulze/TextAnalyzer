@@ -1,0 +1,35 @@
+ Trying to remove offensive words
+
+Describe: omitOffensiveWords()
+
+Test: "It should remove offensive words from text."
+Code: omitOffensiveWords ();
+const text = "if zoinks is muppeteer with biffaroni and loopdaloop";
+const word = "zoinks, muppeteer, biffaroni,loopdaloop";
+omitOffensiveWords (text);
+Expected Output: "if is with and"
+
+ const arrayOffenses = ["zoinks", "muppeteer","biffaroni", "loopdaloop"];
+  function change(offenses) {
+    document.getElementsBy
+  }
+
+
+  document.forEach(function(offense) {
+    offenses.toLowerCase().includes(offense);
+    offenses.append("*");
+  })
+
+
+
+    textArray.forEach(function(offense) {
+      if (word === offense) {
+
+      }
+    }
+    
+    
+    )
+    return (" ");
+  }
+}
