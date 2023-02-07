@@ -33,3 +33,27 @@ Expected Output: "if is with and"
     return (" ");
   }
 }
+
+Count for each word
+
+
+function isEmpty(testString) {
+  return (testString.trim().length === 0);
+}
+
+function numberOfOccurrencesInText(text) {
+  const textArray = text.split(" ");
+  let wordCount = 0;
+  if (isEmpty(text)) {
+    console.log("0 text");
+  }
+  for(let i =0; i<textArray.length;i++){
+    textArray.forEach(function(element) {
+      if (element.toLowerCase().includes(textArray[i].toLowerCase())) {
+        wordCount++;
+      }
+      });
+      console.log(${textArray[i]}: ${wordCount})
+      wordCount=0;
+  }
+}
